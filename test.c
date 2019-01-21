@@ -32,7 +32,7 @@ void stress_test(int N, int M){
   }  
 }
 
-int main(char **argv, int argc){
+int main(int argc, char **argv ){
   if (argc < 3){
     printf("To run: test <N> <M>\n");
     return 0;
