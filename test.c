@@ -16,7 +16,7 @@ void stress_test(int N, int M){
   while (1) {
     int n = rand() % (N-2) + 2;      // Returns a pseudo-random integer between 0 and RAND_MAX.
   
-    int *arr = malloc(n);
+    int *arr = malloc(n*sizeof(int));
     for (int i=0; i<n; i++){
       arr[i] = rand() % M + 1; 
     }
