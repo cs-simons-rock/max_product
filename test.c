@@ -29,6 +29,7 @@ void stress_test(int N, int M){
       printf("OK\n");
     else
       printf("Wrong answer: correct=%d, got instead=%d\n", result1, result2);  
+    free(arr);
   }  
 }
 
