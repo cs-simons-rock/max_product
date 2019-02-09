@@ -1,5 +1,5 @@
-#ifndef DICTIONARY_H
-#define DICTIONARY_H
+#ifndef MAX_PRODUCT_H
+#define MAX_PRODUCT_H
 
 #include <stdio.h>
 #include <time.h>
